@@ -1,0 +1,25 @@
+Genmi
+Open AI
+Google
+how to create the 3 tire in aws
+
+
+
+From StarAgile Trainings to Everyone 09:28 PM
+3. Add Jenkins repo. to our YUM repo:
+	sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+4. Import a key-file from Jenkins-CI to enable the installation from package:
+	sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+	
+	sudo yum upgrade
+
+***********
+    Part 3
+***********
+5. Installing Java
+	sudo amazon-linux-extras install java-openjdk11 -y
+
+	java -version
+
+6. Install Jenkins:
+	sudo yum install jenkins -y
