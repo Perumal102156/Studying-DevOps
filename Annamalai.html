@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration/Login Form</title>
+    
+    <script>
+        function showForm(formId) {
+            document.getElementById('registrationForm').style.display = 'none';
+            document.getElementById('loginForm').style.display = 'none';
+            document.getElementById(formId).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <marquee>
+        <h2>Annamalai University</h2>
+    </marquee>
+<center><button onclick="showForm('registrationForm')">Register</button></center>
+<center><button onclick="showForm('loginForm')">Login</button></cenetr>
+    <link rel="stylesheet" type="text/css" href="style.r.css">
+<form id="registrationForm" style="display: none;">
+    <h2>Registration Form</h2>
+    <!-- Your registration form fields go here -->
+    <p>Student Name: <select name="Student Name" id="student name">
+            <option value="MR">MR</option>
+            <option value="MRS/MISS">MRS/MISS</option>
+        </select>
+        
+        <input type="text" name="student name" title="Studen Name"></p>
+
+        <p>Mobile Number:<input type="varchar" name="mobile number" placeholder="Mobile Number"></p><br>
+        
+        <p>Personal Mail: <input type="varchar" name="personal mail" placeholder="Personal Mail"></p><br>
+        <p>User Name: <input type="text" name="User name"></p><br>
+        <p>Password: <input type="varchar" name="password"></p><br>
+        <p>Confirm Password: <input type="varchar" name="confirm password"></p>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <input type="file" onclick="click">Upload your picture</input>
+        <button type="submit" onclick="submit"><center>Register</center></button>
+</form>
+<form id="loginForm" style="display: none;">
+    <h2>Login Form</h2>
+<p>User Name: <input type="text" name="User name"></p>
+        <p>Password: <input type="varchar" name="password"></p>
+        <!--<p>Confirm Password: <input type="varchar" name="confirm password"></p>-->
+        <link rel="stylesheet" type="text/css" href="style.r.css">
+        <button type="submit" class="submit"><center>Login</center></button></div>
+    <!-- Your login form fields go here -->
+</form>
+ <marquee>
+        <img src="C:\Users\SankarAP\Desktop\Annamalai_University_logo.png" alt="Annamalai logo" width="200" height="100"></img>
+        </marquee> 
+  <marquee direction="top" behavior="alternate"> 
+  <img src="C:\Users\SankarAP\Desktop\congrats.jfif" alt="Congrats" width="200"  height="150" > 
+  </marquee>
+</div>
+</body>
+</html>
