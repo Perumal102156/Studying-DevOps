@@ -5,7 +5,7 @@
     
     <script>
         function showForm(formId) {
-            document.getElementById('registrationForm').style.display = 'none';
+            document.getElementById('registrationForm').style.display = 'no ne';
             document.getElementById('loginForm').style.display = 'none';
             document.getElementById(formId).style.display = 'block';
         }
@@ -16,7 +16,7 @@
         <h2>Annamalai University</h2>
     </marquee>
 <center><button onclick="showForm('registrationForm')">Register</button></center>
-<center><button onclick="showForm('loginForm')">Login</button></cenetr>
+<center><button onclick="showForm('loginForm')">Login</button>
     <link rel="stylesheet" type="text/css" href="style.r.css">
 <form id="registrationForm" style="display: none;">
     <h2>Registration Form</h2>
@@ -26,7 +26,7 @@
             <option value="MRS/MISS">MRS/MISS</option>
         </select>
         
-        <input type="text" name="student name" title="Studen Name"></p>
+        <input type="text" name="student name" title="Student Name"></p>
 
         <p>Mobile Number:<input type="varchar" name="mobile number" placeholder="Mobile Number"></p><br>
         
